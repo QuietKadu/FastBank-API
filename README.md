@@ -26,11 +26,8 @@ Acesse a API rodando em tempo real: [https://fastbank-api.onrender.com/docs](htt
    ```bash
    git clone [https://github.com/QuietKadu/FastBank-API.git](https://github.com/QuietKadu/FastBank-API.git)
    cd FastBank-API
-   2. **Instale as dependências:**
    pip install poetry
    poetry install
-   3. **Inicie o servidor:**   
    poetry run uvicorn main:app --reload
-   4. **Acesse a documentação:**
    http://127.0.0.1:8000/docsD
    
